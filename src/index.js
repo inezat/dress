@@ -8,8 +8,8 @@ import Main from './pages/Main/Main';
 import Additem from './pages/Additem/Additem';
 import Logout from './Logout';
 import Addoutfit from "./pages/Outfit/Addoutfit";
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter as Router,
