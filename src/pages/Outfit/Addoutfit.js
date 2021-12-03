@@ -72,7 +72,7 @@ function Addoutfit() {
         <Col className="class-col">
         <header className="Signup-header">
             <h2>Add clothes!</h2>
-            <label>Outfit Name: <input name="outfitname" className="label-control" class="shadow-sm bg-white rounded" type="text"onChange={e =>setfitname(e.target.value)}/></label>
+            <label>Outfit Name: <input name="outfitname" className="label-control" type="text"onChange={e =>setfitname(e.target.value)}/></label>
         </header>
         <Button className="buttons" outline color="primary" onClick={HandleClick}>Store your outfit</Button>
         <br/>

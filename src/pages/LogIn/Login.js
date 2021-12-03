@@ -64,12 +64,12 @@ const Login = () => {
         <h3>Log in</h3>
         <Col className="class-col">
         <div className="label-group">
-            <label>Email: <br/><input name="email" className="label-control" class="shadow-sm bg-white rounded" type="email"onChange={e =>setuser(e.target.value)}/></label>
+            <label>Email: <br/><input name="email" className="label-control" type="email"onChange={e =>setuser(e.target.value)}/></label>
         </div>
         </Col>
             <Col className="class-col">
         <div className="label-group">
-            <label>Password: <br/><input name="password" className="label-control" class="shadow-sm bg-white rounded" type="password" onChange={e =>setpass(e.target.value)}/></label>
+            <label>Password: <br/><input name="password" className="label-control" type="password" onChange={e =>setpass(e.target.value)}/></label>
             <br/>
             <br/>
         </div>

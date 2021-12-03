@@ -60,11 +60,11 @@ function Addoutfit() {
       <div className="Signup">
         <header className="Signup-header">
             <h2>Add clothes!</h2>
-                <label>Name: <input name="name" class="shadow-sm bg-white rounded" type="text"onChange={e =>setname(e.target.value)}/></label>
+                <label>Name: <input name="name" type="text"onChange={e =>setname(e.target.value)}/></label>
                 <br/>
-                <label>Color: <input name="color" class="shadow-sm bg-white rounded" type="text"onChange={e =>setcolor(e.target.value)}/></label>
+                <label>Color: <input name="color" type="text"onChange={e =>setcolor(e.target.value)}/></label>
                 <br/>
-                <label>Brand: <input name="brand" class="shadow-sm bg-white rounded" type="text"onChange={e =>setbrand(e.target.value)}/></label>
+                <label>Brand: <input name="brand" type="text"onChange={e =>setbrand(e.target.value)}/></label>
                 <br/>
                 <div>
                 <label>Type:</label>

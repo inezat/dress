@@ -65,11 +65,11 @@ function Additem() {
         <Col className="class-col">
         <header className="Signup-header">
             <h2>Add clothes!</h2>
-                <label>Name: <input name="name" className="label-control" class="shadow-sm bg-white rounded" type="text"onChange={e =>setname(e.target.value)}/></label>
+                <label>Name: <input name="name" className="label-control" type="text"onChange={e =>setname(e.target.value)}/></label>
                 <br/>
-                <label>Color: <input name="color" className="label-control" class="shadow-sm bg-white rounded" type="text"onChange={e =>setcolor(e.target.value)}/></label>
+                <label>Color: <input name="color" className="label-control" type="text"onChange={e =>setcolor(e.target.value)}/></label>
                 <br/>
-                <label>Brand: <input name="brand" className="label-control" class="shadow-sm bg-white rounded" type="text"onChange={e =>setbrand(e.target.value)}/></label>
+                <label>Brand: <input name="brand" className="label-control" type="text"onChange={e =>setbrand(e.target.value)}/></label>
                 <br/>
                 <div>
                 <label>Type:</label>

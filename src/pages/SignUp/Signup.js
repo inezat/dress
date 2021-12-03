@@ -54,22 +54,22 @@ function Signup() {
             <h3>Sign up for DressYou!</h3>
             <Col className="class-col">
             <div className="label-group">
-                <label>First Name: <br/><input name="firstname" className="label-control" class="shadow-sm bg-white rounded" type="text"onChange={e =>setfn(e.target.value)}/></label>
+                <label>First Name: <br/><input name="firstname" className="label-control" type="text"onChange={e =>setfn(e.target.value)}/></label>
             </div>
             </Col>
                 <Col className="class-col">
             <div className="label-group">
-                <label>Last Name: <br/><input name="lastname" className="label-control" class="shadow-sm bg-white rounded" type="text"onChange={e =>setln(e.target.value)}/></label>
+                <label>Last Name: <br/><input name="lastname" className="label-control" type="text"onChange={e =>setln(e.target.value)}/></label>
             </div>
             </Col>
                 <Col className="class-col">
             <div className="label-group">
-                <label>Email: <br/><input name="email" className="label-control" class="shadow-sm bg-white rounded" type="email"onChange={e =>setuser(e.target.value)}/></label>
+                <label>Email: <br/><input name="email" className="label-control" type="email"onChange={e =>setuser(e.target.value)}/></label>
             </div>
             </Col>    
                 <Col className="class-col">
             <div className="label-group">
-                <label>PassWord: <br/><input name="password" className="label-control" class="shadow-sm bg-white rounded" type="password"onChange={e =>setpass(e.target.value)}/></label>
+                <label>PassWord: <br/><input name="password" className="label-control" type="password"onChange={e =>setpass(e.target.value)}/></label>
             </div>
             </Col>
                 <br/>
