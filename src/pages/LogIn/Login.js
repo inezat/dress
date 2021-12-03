@@ -28,7 +28,7 @@ const Login = () => {
     let navigate = useNavigate();
 
     async function HandleClick(){
-        if(user == "" || pass ==""){
+        if(user === "" || pass ===""){
             alert("please fill in all fields");
             return;
         }
@@ -40,10 +40,10 @@ const Login = () => {
       })
       .then(function (response) {
       //alert(response.status);
-      if(response.status == 200){
+      if(response.status === 200){
 
         document.cookie = "username="+user+";path=/";
-        let x = document.cookie;
+        //let x = document.cookie;
         // console.log(x);
         navigate('/main');
       }

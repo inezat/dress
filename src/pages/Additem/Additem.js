@@ -31,7 +31,7 @@ function Additem() {
     
     async function HandleClick(){
 
-    if(name != '' && color != '' && brand !=''){
+    if(name !== '' && color !== '' && brand !==''){
       var apiBaseUrl = "https://rocky-mesa-06315.herokuapp.com/";
         axios.post(apiBaseUrl+'additem',{
           email:email,
@@ -41,7 +41,7 @@ function Additem() {
           brand:brand
         })
         .then(function (response) {
-        if(response.status == 200){
+        if(response.status === 200){
             navigate('/main');
         }
         })

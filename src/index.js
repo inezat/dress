@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from "react";
+import React from "react";
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as Pages from './pages';
@@ -20,14 +20,6 @@ import {
   useParams,
   useNavigate
 } from "react-router-dom";
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button
- } from "react-bootstrap";
 import Outfits from "./pages/Outfit/Outfits";
 
 function App(){
